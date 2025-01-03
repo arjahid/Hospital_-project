@@ -234,17 +234,15 @@
                     <div class="image">
                         <img src="appoinment.gif" alt>
                     </div>
-                    <form action class="form">
-                        <h3>Booking appoinment</h3>
-                        <input type="text" placeholder="Enter Your Name"
-                            class="box">
-                        <input type="number" placeholder="Enter Your number"
-                            class="box">
-                        <input type="email" placeholder="Enter Your email"
-                            class="box">
-                        <input type="date" class="box">
-                        <input type="submit" value="book now" class="btn">
+                    <form action="#" class="form">
+                        <h3>Book an Appointment</h3>
+                        <input type="text" placeholder="Enter Your Name" class="box" required>
+                        <input type="tel" placeholder="Enter Your Number" class="box" required>
+                        <input type="email" placeholder="Enter Your Email" class="box" required>
+                        <input id="date" type="date" class="box" required>
+                        <input type="submit" value="Book Now" class="btn">
                     </form>
+                    
                 </div>
             </section>
 
@@ -253,7 +251,7 @@
             <!-- review section start here -->
             <section class="review" id="review">
                 <h1 class="heading">Client's review</h1>
-                <div class="box-container">
+                <div id="client-box-container" class="box-container">
                     <div class="box">
                         <img src="r2.jpg" alt>
                         <h3>Medehi Hasan Sagor</h3>
@@ -393,9 +391,9 @@
             <!-- blog start here -->
 
             <section class="blogs" id="blogs">
-                <h1 class="heading">Our blogs</h1>
-                <div class="box-container">
-                    <div class="box">
+                <h1 id="heading1" class="heading">Our blogs</h1>
+                <div id="box-blog" class="box-container">
+                    <div  class="box">
                         <div class="images">
                             <img src="medical1.1.gif" alt>
                         </div>
@@ -420,7 +418,7 @@
                     </div>
                     <div class="box">
                         <div class="images">
-                            <img src="medical1.2.gif" alt>
+                            <img id="mc" src="medical1.2.gif" alt>
                         </div>
                         <div class="content">
                             <div class="icon">

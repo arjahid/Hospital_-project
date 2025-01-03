@@ -17,7 +17,7 @@ body {
     background-color: #e7e5e5;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #007bff;
-    position: sticky;
+
     top: 0;
     z-index: 1000;
 }
@@ -56,28 +56,6 @@ body {
 
 .nav-bar a:hover {
     color: #007bff;
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .nav-bar h3#asha {
-        margin-bottom: 10px;
-    }
-
-    .nav-bar a {
-        margin: 5px 0;
-    }
 }
 
 .home {
@@ -122,17 +100,7 @@ body {
     line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-    .home {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .content {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-}
 
 body {
     margin: 0;
@@ -186,17 +154,7 @@ body {
     color: #666;
 }
 
-@media (max-width: 768px) {
-    .icons {
-        flex: 1 1 45%;
-    }
-}
 
-@media (max-width: 480px) {
-    .icons {
-        flex: 1 1 100%;
-    }
-}
 
 
 .services {
@@ -278,18 +236,6 @@ body {
 
 .box1 .btn:hover {
     background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-    .box {
-        flex: 1 1 45%;
-    }
-}
-
-@media (max-width: 480px) {
-    .box {
-        flex: 1 1 100%;
-    }
 }
 
 #asha {
@@ -398,17 +344,6 @@ body {
     background-color: #0056b3;
 }
 
-@media (max-width: 768px) {
-    .content {
-        text-align: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .row {
-        flex-direction: column;
-    }
-}
 
 body {
     margin: 0;
@@ -496,17 +431,6 @@ body {
     color: #007bff;
 }
 
-@media (max-width: 768px) {
-    .box {
-        flex: 1 1 45%;
-    }
-}
-
-@media (max-width: 480px) {
-    .box {
-        flex: 1 1 100%;
-    }
-}
 
 body {
     margin: 0;
@@ -604,26 +528,6 @@ form h3 {
 
 }
 
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .form {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .box {
-        font-size: 14px;
-    }
-
-    .btn {
-        font-size: 16px;
-    }
-}
 
 body {
     margin: 0;
@@ -696,18 +600,11 @@ body {
     font-size: 16px;
     color: #666;
 }
-
-@media (max-width: 768px) {
-    .box {
-        flex: 1 1 45%;
-    }
+#mc{
+    max-width: 100%;
+    max-width: 100%;
 }
 
-@media (max-width: 480px) {
-    .box {
-        flex: 1 1 100%;
-    }
-}
 
 body {
     margin: 0;
@@ -715,44 +612,6 @@ body {
     background-color: #f3f3f3;
 }
 
-.blogs {
-    padding: 50px 20px;
-    background-color: #fff;
-    text-align: center;
-}
-
-.blogs .heading {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 40px;
-}
-
-.box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px 0;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    border-radius: 10px;
-}
-
-.box {
-    flex: 1 1 300px;
-    max-width: 300px;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #fafafa;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.box:hover {
-    transform: translateY(-10px);
-}
 
 .images img {
     max-width: 100%;
@@ -803,26 +662,6 @@ body {
 
 .btn:hover {
     background-color: #0056b3;
-}
-
-@media (max-width: 768px) {
-    .box-container {
-        flex-direction: column;
-    }
-
-    .box {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .box-container {
-        flex-direction: column;
-    }
-
-    .box {
-        max-width: 100%;
-    }
 }
 
 #blood {
@@ -884,4 +723,157 @@ body {
 .footer .copy {
     font-size: 14px;
     margin-top: 10px;
+}
+
+/*  */
+@media (max-width: 576px) {
+
+    .header,
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #heading1{
+        text-align: center;
+        margin-top: 40px;
+    }
+    #box-blog{
+        padding-left: 70px;
+    }
+
+    .nav-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-bar h3#asha {
+        margin-bottom: 10px;
+    }
+
+    .nav-bar a {
+        margin: 5px 0;
+    }
+
+    .home,
+    .row,
+    .box-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+    .home{
+        max-height: 500px;
+       
+    }
+    
+    .icons,
+    .box {
+        flex: 1 1 100%;
+    }
+
+    .box {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+    .footer {
+        font-size: 12px;
+
+    }
+
+    .footer {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .footer .social-icons a {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    .footer .footer-links a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .footer .copy {
+        font-size: 12px;
+    }
+
+}
+
+/* Tablet Styles (577px to 768px) */
+@media (min-width: 577px) and (max-width: 960px) {
+
+    .header,
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-bar h3#asha {
+        margin-bottom: 10px;
+    }
+
+    .nav-bar a {
+        margin: 5px 0;
+    }
+
+    .home,
+    .row,
+    .box-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home{
+        max-height: 500px;
+       
+    }
+    .input{
+        width: 100%;
+    }
+    
+    .box-container{
+        margin-top: 50px;
+        margin-right: 170px;
+    }
+    .box{
+        margin-left: 150px;
+    }
+    
+
+    .content {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+
+    .icons,
+    .box {
+        flex: 1 1 45%;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+    
 }
