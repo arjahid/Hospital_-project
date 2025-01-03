@@ -732,6 +732,7 @@ body {
     .nav-bar {
         flex-direction: column;
         align-items: flex-start;
+        align-items: center;
     }
     #heading1{
         text-align: center;
